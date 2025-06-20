@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* @layer components{
+    li{
+        @apply border-1 border-gray-200/80 shadow-sm rounded-4xl px-1.5 py-1 truncate ;
+    }
+} */
+
+@layer components {
+
+    ul{
+        @apply: max-w-100 overflow-hidden text-ellipsis whitespace-nowrap;
+    }
+  li {
+    @apply border border-gray-200 shadow-sm rounded-full px-2 py-1 w-18 text-center overflow-hidden text-ellipsis whitespace-nowrap hover:scale-105 ;
+  }
+}
